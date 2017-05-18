@@ -1,0 +1,12 @@
+{
+    "admin": {
+        "username": "<yourUsername>",
+        "password": "<yourPassword>"
+    },
+    "db":{
+        "mode": false,
+        "mongo":{
+            "url": "<yourMongoUrl>"
+        }
+    }
+}
