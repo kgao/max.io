@@ -13,8 +13,10 @@ A restful API web framework, powered by Node, Express, Mongoose and Swagger.
 > SET DEBUG=max.io:* & npm start
 
 
-# Routes
+# Test
 
 > /api/v1
+
 > /api/v1/users
+
 > /api/v1/docs
