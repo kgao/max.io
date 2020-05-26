@@ -27,7 +27,7 @@ var server = http.createServer(app);
 if(config.db.mode){
   //Test DB connection first mode! - When turnning on via config.db.mode === true
   var mongoose = require('mongoose');
-  mongoose.connect(config.db.mongo.url);
+  mongoose.connect(config.db.mongo.url, { useNewUrlParser: true, useUnifiedTopology: true });
   var db = mongoose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));
   db.once('open', function() {
